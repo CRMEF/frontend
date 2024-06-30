@@ -12,6 +12,8 @@ export const routes: Routes = [
       path: 'profil/:id',
       component: DashboardComponent,
       title: 'profil',
-    }
+    },
+    { path: 'contactus', component: ContactusComponent, title: 'Contact Us' },
+    { path: '**', component: NotfoundComponent, title: 'Not found 404' },
   ];
   
